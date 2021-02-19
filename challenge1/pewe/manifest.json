@@ -1,0 +1,15 @@
+{
+  "description": "Privacy-Enhancing WebExtension",
+  "manifest_version": 2,
+  "name": "pewe",
+  "version": "0.01",
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "webNavigation",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
